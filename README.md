@@ -1,5 +1,3 @@
-
-```markdown
 # 🏭 Fábrica Virtual — Observabilidade Industrial com DevOps
 
 Projeto de **simulação de ambiente industrial (OT)** com pipeline completo de **telemetria, monitoramento e observabilidade**, utilizando práticas DevOps amplamente adotadas no mercado.
@@ -8,13 +6,13 @@ O projeto simula um cenário real de chão de fábrica utilizando apenas um note
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Simular uma máquina industrial publicando dados operacionais e construir um pipeline completo de observabilidade, desde a geração da telemetria até a visualização em dashboards executivos.
 
 ---
 
-## 🧱 Arquitetura Geral
+##  Arquitetura Geral
 
 ```mermaid
 flowchart TD
@@ -23,11 +21,9 @@ flowchart TD
     C -->|Expose| D[Prometheus]
     D -->|Query| E[Grafana]
 
-```
-
 ---
 
-## ⚙️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Infraestrutura:** Docker & Docker Compose
 * **Linguagem:** Python 3.10+
@@ -38,13 +34,13 @@ flowchart TD
 
 ---
 
-## 🏭 Simulação da Máquina Industrial
+##  Simulação da Máquina Industrial
 
 A máquina industrial é simulada via Python e gera, em intervalos regulares:
 
-* 🌡️ Temperatura do equipamento
-* 〰️ Nível de vibração
-* 🟢 Status operacional
+*  Temperatura do equipamento
+*  Nível de vibração
+*  Status operacional
 
 Os dados são publicados via MQTT no formato JSON.
 
@@ -112,7 +108,7 @@ O dashboard apresenta métricas em tempo real voltadas para cenários de manuten
 
 ---
 
-## 🚀 Próximas Evoluções
+##  Próximas Evoluções
 
 * [ ] Alertas com Alertmanager
 * [ ] Simulação de falhas operacionais
@@ -121,8 +117,10 @@ O dashboard apresenta métricas em tempo real voltadas para cenários de manuten
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Projeto de uso educacional e demonstrativo.
+
+## Jesus Te Ama!
 
 ```
