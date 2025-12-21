@@ -20,6 +20,7 @@ flowchart TD
     B -->|Subscribe| C[Exporter Customizado]
     C -->|Expose| D[Prometheus]
     D -->|Query| E[Grafana]
+```
 
 ---
 
@@ -46,7 +47,7 @@ Os dados são publicados via MQTT no formato JSON.
 
 ---
 
-## 📊 Observabilidade e Monitoramento
+##  Observabilidade e Monitoramento
 
 * **Exporter customizado:** Converte eventos MQTT em métricas no padrão Prometheus.
 * **Prometheus:** Realiza coleta periódica via *scrape*.
